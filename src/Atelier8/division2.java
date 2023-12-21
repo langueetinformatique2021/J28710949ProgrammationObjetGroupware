@@ -1,17 +1,20 @@
 package Atelier8;
 
 public class division2 {
-	public static void main(String[] args) { 
+	public static void main(String[] args) {
 		try {
-			division(); 
-		} catch (ArithmeticException e) { 
-			System.out.println(e.getMessage()); 
+			division();
+		} catch (ArithmeticException e) {
+			System.out.println(e.getMessage());
 			System.exit(0);
 		}
 	}
-		
+
 	public static void division() throws ArithmeticException {
 		int i = 1000, j;
-		do {i--; j = 1 / i;} while (true);
-	 } 
+		do {
+			i--;
+			j = 1 / i;
+		} while (true);
+	}
 }
